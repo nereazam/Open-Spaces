@@ -3,4 +3,10 @@
 @import 'layout/page';
 @import 'layout/header';
 @import 'layout/footer';
-@import 'pages/index';
+@import 'layout/grey-section';
+
+
+:root{
+    font-family: $principalfont;
+    font-size: 16px;
+}
