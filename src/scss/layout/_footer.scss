@@ -1,1 +1,49 @@
 
+.bottom-image{
+    width: 100vw;
+
+}
+
+
+
+
+h6{font-size:20px ;
+text-align: left;
+color:#b6c8c9 ;}
+
+
+
+a{text-decoration: none;
+    font-size:14px ;
+    text-align: left;
+    color:#b6c8c9 ;
+    text-decoration: none;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+     justify-content: space-evenly;
+    flex-direction: column;
+   
+    background-color: $principal-color;
+    height: 543px;
+    text-align: left;
+}
+
+    
+.social {
+    display: flex;
+    flex-direction: row;
+justify-content: left;
+align-items: left;
+    color: white
+    
+}
+.social-icon {
+    margin-right: 11px;
+}
+.contactos{
+    left:20px ;
+}

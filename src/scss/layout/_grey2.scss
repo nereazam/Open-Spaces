@@ -1,0 +1,17 @@
+h5{
+    font-size:24px ;
+    color: $principal-color;
+}
+.line{  font-size:14px ;
+    color: $principal-color;
+
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f0ebe5;
+    height: 339px;
+    text-align: center;
+}
