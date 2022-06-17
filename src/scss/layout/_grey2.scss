@@ -1,6 +1,7 @@
 h5{
     font-size:24px ;
     color: $principal-color;
+    margin-top: 65px;
 }
 .line{  font-size:14px ;
     color: $principal-color;
@@ -15,3 +16,44 @@ h5{
     height: 339px;
     text-align: center;
 }
+.content__button-top{
+    background-color:  $principal-color;
+    font-size: 16px;
+    color: white;
+    width:  176px;
+    height: 48px;
+    border: none ;
+    padding: 12px 24px;text-transform: capitalize;
+    margin-bottom: 40px;}
+   
+    
+    .content__button-top:hover {
+        transition: transform 0.5s ;  
+        background-color: black;
+        
+
+}
+.upper {text-transform: uppercase;}
+
+.bottom-image{
+    width: 100%;
+
+}
+
+.api-section{
+    display: flex;
+    flex-direction: column;
+
+}
+.grid-container{
+    padding-top: 41px;}
+
+
+
+
+
+        @media all and (min-width: 1728px) {
+    .api-section{
+        flex-direction: row;}
+    .search{width: 50%;
+    }}

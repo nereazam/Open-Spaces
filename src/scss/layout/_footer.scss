@@ -1,15 +1,12 @@
 
-.bottom-image{
-    width: 100vw;
-
-}
 
 
 
 
-h6{font-size:20px ;
-text-align: left;
-color:#b6c8c9 ;}
+h6
+{font-size:20px ;
+color:#b6c8c9 ;
+margin-bottom: 20px;}
 
 
 
@@ -22,28 +19,51 @@ a{text-decoration: none;
 
 
 .footer{
-    display: flex;
-    align-items: center;
-     justify-content: space-evenly;
-    flex-direction: column;
-   
     background-color: $principal-color;
+    display: flex;
+    align-items: flex-start;
+     justify-content:space-around;
+    flex-direction: column;
+    padding-top: 10%
+   ;
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+   
+    
     height: 543px;
     text-align: left;
+    padding-left: 35% ;
 }
 
     
 .social {
     display: flex;
     flex-direction: row;
-justify-content: left;
-align-items: left;
-    color: white
+    justify-content: left;
+    align-items: left;
+    color: white;
+    margin-top: 30px;
     
 }
 .social-icon {
     margin-right: 11px;
 }
-.contactos{
-    left:20px ;
+
+
+
+.arrow {
+    position: relative;
+    left: 250px;
+    
 }
+
+
+
+@media all and (min-width: 900px) {
+    .footer{ flex-direction: row;}
+}
+    @media all and (min-width: 1728px) {}
