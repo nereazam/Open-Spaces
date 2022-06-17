@@ -44,29 +44,24 @@ h5 {
     }
 }
 
-
 .bottom-image {
-    max-width: 1vw;
-    max-height: 304px;
-    object-fit: cover;
-    
+   width:100vw
 }
-
 
 @media all and (min-width: 1728px) {
 
     .line {
+        
         flex-direction: row;
-
+       
         &__search {
-            width: 50%;
+            width:50vw;
         }
     }
 }
 
 .bottom-image {
-    max-width: 50vw;
-    max-height: 571px;
-    object-fit: cover;
-
+    min-width: 50vw;
+    height: 571px;
+    width: 500px;
 }
