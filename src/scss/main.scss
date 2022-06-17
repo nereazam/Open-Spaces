@@ -3,13 +3,14 @@
 @import 'layout/page';
 @import 'layout/header';
 @import 'layout/footer';
-@import 'layout/greysection';
-@import 'layout/orange';
-@import 'layout/grey2';
+@import 'layout/grey-section';
+@import 'layout/orange-section';
+@import 'layout/last-section';
 
 
 
 :root{
     font-family: $principalfont;
+    color: $principal-color;
     font-size: 16px;
 }

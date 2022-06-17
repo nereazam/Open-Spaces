@@ -1,70 +1,61 @@
-
-
-h6
-{font-size:20px ;
-color:#b6c8c9 ;
-margin-bottom: 20px;}
-
-
-
-a{text-decoration: none;
-    font-size:14px ;
-    text-align: left;
-    color:#b6c8c9 ;
-    text-decoration: none;
+h6 {
+    font-size: 20px;
+    color: $secundary-color;
+    margin-bottom: 20px;
 }
 
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 
-.footer{
+    &__list {
+        text-decoration: none;
+        font-size: 14px;
+        text-align: left;
+        color: $secundary-color;
+        text-decoration: none;
+    }
+}
+
+.footer {
     background-color: $principal-color;
     display: flex;
     align-items: flex-start;
-     justify-content:space-around;
+    justify-content: space-around;
     flex-direction: column;
-    padding-top: 10%;  
-    
+    padding-top: 10%;
     text-align: left;
-    padding-left: 35% ;}
+    padding-left: 35%;
+}
 
-    .links{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-   
-  
-} 
-.contactos{ margin-bottom: 10px;
-margin-top: 10px; }
-    
+
+
 .social {
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: left;
-    color: white;
     margin-top: 30px;
-    
+
+
+    &__icon {
+        margin-right: 11px;
+        color: $secundary-color;
+    }
 }
-.social-icon {
-    margin-right: 11px;
-}
 
-
-
-.arrow{
+.arrow {
     position: absolute;
-right: 50px
-;
+    right: 40px;
 
 }
-
-
-
 
 @media all and (min-width: 900px) {
-    .footer{ flex-direction: row;
-
+    .footer {
+        flex-direction: row;
         padding: 35px;
     }
 }
-    
