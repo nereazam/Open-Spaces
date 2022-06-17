@@ -49,8 +49,6 @@
   &__button:hover {
     transition: transform 0.5s ;  
     background-color: black;
-    
-
 }
 
 }
@@ -68,8 +66,8 @@
     padding-left: 15%;
 
     .content__logo {
-      position: relative;
-      bottom: 450px;
+    position: absolute;
+      top: 10px;
       left: 45%;
     }
 
@@ -106,8 +104,8 @@
   }
 
   .content__logo {
-    bottom: 700px;
-    left: 60%;
+    position: absolute;
+ 
   }
 
   h1 {

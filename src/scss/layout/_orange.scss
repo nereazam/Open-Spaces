@@ -1,11 +1,12 @@
 .orange{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color:#ff975a ;
-    height: 352px;
-    text-align: center;
+ text-align: center;gap: 25px;
+   
+    padding: 20px;
 }
 h4{
     font-size: 24px;
@@ -18,3 +19,5 @@ h4{
 .link{
     color: white;
 }
+
+

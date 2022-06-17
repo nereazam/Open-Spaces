@@ -1,8 +1,5 @@
 
 
-
-
-
 h6
 {font-size:20px ;
 color:#b6c8c9 ;
@@ -24,21 +21,20 @@ a{text-decoration: none;
     align-items: flex-start;
      justify-content:space-around;
     flex-direction: column;
-    padding-top: 10%
-   ;
+    padding-top: 10%;  
+    
+    text-align: left;
+    padding-left: 35% ;}
 
     .links{
         display: flex;
         flex-direction: column;
         gap: 10px;
-    }
    
-    
-    height: 543px;
-    text-align: left;
-    padding-left: 35% ;
-}
-
+  
+} 
+.contactos{ margin-bottom: 10px;
+margin-top: 10px; }
     
 .social {
     display: flex;
@@ -55,15 +51,15 @@ a{text-decoration: none;
 
 
 
-.arrow {
-    position: relative;
-    left: 250px;
-    
-}
+
+
 
 
 
 @media all and (min-width: 900px) {
-    .footer{ flex-direction: row;}
+    .footer{ flex-direction: row;
+
+        padding: 35px;
+    }
 }
-    @media all and (min-width: 1728px) {}
+    
