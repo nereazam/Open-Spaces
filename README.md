@@ -1,5 +1,6 @@
 # Open-Spaces-landing-page
 # OPEN SPACES <span> | </span>
+[DEMO LINK](https://nereazam.github.io/Open-Spaces/)
 
 <p>Open Spaces es una landing page creada como proyecto en el bootcamp de Web developer de Adalab. Maquetado en diseño responsive, funcional para diferentes dispositivos con criterios de accesibilidad Web.  
 En la ejecución del proyecto implementé Flexbox y Grid Layout, además del uso del preprocesador de CSS Sass.</p>
