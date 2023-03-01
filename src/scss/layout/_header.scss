@@ -2,25 +2,20 @@
   background-image: url(../images/header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-
   width: 100vw;
   height: 80vh;
   background-position: center;
 
-
-
   &__nav {
     width: 30px;
-
     margin-top: 30px;
     margin-left: 5%;
     object-fit: contain;
     position: fixed;
   }
-}
 
-.list {
-  display: none;
+
+
 
 }
 
@@ -29,27 +24,24 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-
   width: 100%;
   height: 80vh;
 
   &--logo {
-    width: 180px;
-    margin-top: 35px;
+    width: 200px;
+    margin-top: 25px;
     text-align: center;
     position: absolute;
     top: 10px;
-    left: 35%;
+    right: 90px;
   }
 
   &--title {
     color: $principal-color;
-    width: 300px;
+    width: 80%;
     font-size: 2rem;
     text-align: center;
-    margin: 10%;
-
-
+    margin: 10% auto;
   }
 
   &--button {
@@ -57,9 +49,8 @@
     color: white;
     width: 160px;
     height: 50px;
-    margin: 5%;
+    margin: 5% auto;
     border: none;
-
     text-transform: capitalize;
     font-size: 1.2rem;
   }
@@ -68,27 +59,28 @@
     transition: transform 0.5s;
     background-color: black;
   }
-
 }
 
 @media all and (min-width: 600px) {
-
-
   .header__content {
     justify-content: center;
     align-items: center;
+
+    &--logo {
+      position: absolute;
+      top: 10px;
+      left: 45%;
+      width: 250px;
+    }
 
     &--title {
       color: $principal-color;
       width: 500px;
       font-size: 2rem;
       text-align: center;
-
       margin-bottom: 30px;
       margin-left: 5%;
       font-size: 3rem;
-
-
     }
 
     &--button {
@@ -98,15 +90,8 @@
       height: 50px;
       margin: 5%;
       border: none;
-
       text-transform: capitalize;
       font-size: 1.2rem;
-    }
-
-    &--logo {
-      position: absolute;
-      top: 10px;
-      left: 45%;
     }
   }
 
@@ -114,7 +99,12 @@
     font-size: 2rem;
   }
 
+  .list {
+    display: none;
+
+  }
 }
+
 
 @media all and (min-width: 1528px) {
 
@@ -124,50 +114,69 @@
 
   .list {
 
-    text-decoration: none;
-    color: $principal-color;
+
     display: flex;
     flex-direction: row;
+    justify-content: left;
+    text-align: left;
     gap: 30px;
-    padding-left: 10%;
-    padding-top: 100px;
-    font-size: 1.6rem;
 
+    padding-left: 200px;
+    padding-top: 200px;
+    font-size: 3rem;
 
+  }
 
-
+  .list a {
+    display: flex;
+    text-decoration: none;
+    color: var(--title);
   }
 
   .header__content {
     display: flex;
-
     justify-content: start;
-    text-align: start;
-    gap: 30px;
-    align-items: left;
+    align-items: start;
+    gap: 40px;
 
+    height: 100vh;
 
     &--title {
       color: $principal-color;
-      justify-content: left;
-      font-size: 3.5rem;
-      width: 500px;
+      font-size: 5rem;
+      width: 800px;
       text-align: left;
-      margin: 0px;
-      margin-left: -100%;
-      margin-top: 25%;
+      margin-left: 200px;
+      margin-top: 10%;
 
     }
 
     &--button {
-      align-items: left;
-      margin: 0px;
-      margin: 0px;
-      margin-left: -420%;
+      width: 300px;
+      height: 100px;
+      font-size: 2.3rem;
+      color: aliceblue;
+      margin-left: 200px;
+
+
     }
 
+    &--logo {
+      width: 550px;
 
+      top: 90px;
+
+    }
   }
 
+}
 
+@media all and (max-width: 600px) {
+  .list {
+    display: none;
+  }
+
+  .list a {
+    color: transparent;
+  }
 }
