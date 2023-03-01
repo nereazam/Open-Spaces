@@ -1,7 +1,7 @@
 h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: $principal-color;
-    margin-top: 10px;
+    margin: 30px;
     width: 60%;
 }
 
@@ -26,30 +26,31 @@ h3 {
     background-color: $light-color;
     padding: 80px;
     text-align: center;
-    
+
     &__box {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 25px;
-        width: 60%;
-        margin-left: 25%;
-        margin-top: 35px;
+        gap: 50px;
+        margin: 30px;
+        max-width: 600px;
 
         &--icon {
             width: 90px;
             height: 99px;
-
         }
     }
 }
 
 @media all and (min-width: 900px) {
     .grid-container {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         align-items: center;
+        justify-content: center;
     }
+
+
 
     .organizer {
         grid-column: span 3;
@@ -58,9 +59,9 @@ h3 {
 }
 
 @media all and (min-width: 1728px) {
-
     .grid-container {
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items: center;
+        justify-content: center;
+
+        margin: 0 auto;
     }
 }
